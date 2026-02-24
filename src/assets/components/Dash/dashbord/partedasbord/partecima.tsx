@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Graficos } from "./graficos"
 import "./partecima.css"
-import { useLocation } from "react-router-dom"
+
 
 import {
 Info,

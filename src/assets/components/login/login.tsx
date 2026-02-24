@@ -1,5 +1,5 @@
 import "./login.css";
-import { KeyRound, User } from 'lucide-react';
+import { KeyRound} from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 export function Login() {
 const [activeTab, setActiveTab] = useState<'login' | 'register'>('login');
-const [name, setName] = useState("");
+
 
 const [email, setEmail] = useState("");
 

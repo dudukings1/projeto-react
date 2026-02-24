@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 import "./sidebar.css";
-import IconHover from "./funcoes/hover";
+
 export function Sidebar() {
   const [mouseEmCima, setMouseEmCima] = useState(false);
 
