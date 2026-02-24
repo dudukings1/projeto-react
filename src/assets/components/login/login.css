@@ -1,0 +1,147 @@
+.inputs {
+
+    background-Color: rgb(7, 13, 26);
+    border: none;
+    border-radius: 5px;
+    
+    width: 100%;
+    border: 1px solid rgb(211, 211, 211);
+    color: white;
+    font-size: 16px;
+    padding: 9px 15px;
+    caret-color: white;
+}
+
+.inputs:focus {
+    outline: none;
+    border: 2px solid rgb(2, 107, 245);
+}
+.cima-input {
+    margin-bottom: 2px;
+}
+.fontes {
+    
+  /* 1. A Fonte do Sistema (Idêntica ao GitHub no Windows/Mac) */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  
+  /* 2. O Segredo do "Clean": Reduzir o espaçamento entre letras */
+  letter-spacing: -0.01em; 
+  
+  /* 3. Suavização (Deixa a fonte menos 'pixelada') */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  /* 4. Altura da linha (Dá respiro ao texto) */
+  line-height: 1.5;
+
+    color: rgb(207, 207, 207);
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 40px;
+
+    display: flex;
+    justify-content: center;
+}
+.botao1 {
+    width: 100%;
+    background-color: rgb(37, 85, 33);
+    color: rgb(255, 255, 255);
+    padding: 13px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased; 
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.botao1:hover {
+    background-color: rgb(61, 112, 57);
+}
+
+.divider {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  width: 100%;
+  margin: 20px 0; /* Espaçamento em cima e embaixo */
+}
+
+.line {
+  flex: 1; /* Faz a linha ocupar todo o espaço disponível */
+  height: 1px;
+  background-color: #30363d; /* Cor da linha (cinza escuro do GitHub) */
+}
+
+.text {
+  padding: 0 16px; /* Espaço ao redor do texto 'or' */
+  color: #8b949e; /* Cor do texto */
+  font-size: 14px;
+  font-family: system-ui, sans-serif; /* Usando fontes nativas */
+}
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #21262d; /* Fundo escuro igual ao do GitHub */
+  color: #c9d1d9;            /* Texto cinza claro */
+  border: 1px solid #30363d; /* Borda discreta */
+  border-radius: 6px;
+  font-family: system-ui, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  gap: 8px;                 /* Espaço entre o ícone e o texto */
+}
+
+.google-btn:hover {
+  background-color: #30363d; /* Leve destaque ao passar o mouse */
+  border-color: #8b949e;
+}
+
+.google-icon {
+  width: 18px;
+  height: 18px;
+}
+.p2 {
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+.p2 a {
+    color: rgb(43, 116, 252);
+    text-decoration: none;
+}
+.p2 a:hover {
+    text-decoration: underline;
+}
+.paskey {
+    color: rgb(43, 116, 252);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    background-color: #0c131f;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}

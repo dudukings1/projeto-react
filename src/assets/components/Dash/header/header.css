@@ -1,0 +1,120 @@
+.header {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(48, 48, 48);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid rgba(134, 134, 134, 0.342);
+}
+.configs {
+    background-color: aqua;
+}
+.perfil {
+
+    height: 42px;
+    width: 42px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 50%;
+    margin-left: -35px;
+}
+.aparecer {
+    height: 300px;
+    width: 250px;
+    right: 0;
+    background-color: rgb(46, 46, 46);
+    top: 70px;
+    z-index: 9999999;
+    box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.37);
+    position: absolute;
+    color:  rgb(134, 134, 134);
+}
+.aparecer button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: rgb(46, 46, 46);
+    color: rgb(134, 134, 134);
+    display: flex;
+    justify-content: start;
+    padding-left: 10px;
+    align-items: center;
+}
+.aparecer p {
+    padding-left: 10px;
+}
+.aparecer a {
+    text-decoration-line: none;
+    color: rgb(134, 134, 134);
+    margin: 10px;
+}
+.partedireita {
+    width: 500px;
+    display: flex;
+    justify-content: end;
+    margin-right: -180px;
+    align-items: center;
+
+}
+
+.partedireita input {
+    
+    width: 80%;
+    padding-left: 35px; /* ← espaço da lupa */
+    height: 35px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #252525;
+    color: white;
+    
+}
+.partedireita input:focus {
+    outline: none;
+}
+
+.lupa {
+    position: absolute;
+    right: 330px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgb(122, 122, 122);
+}
+
+
+.sininho {
+    height: 32px;
+    width: 32px;
+    background-color: rgb(37, 37, 37);
+    border-radius: 50%;
+    color: rgba(134, 134, 134, 0.541);
+    font-size: 20pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.caixahover {
+    width: 120px;
+    height: 33px;
+    background-color: rgb(29, 29, 29);
+    font-size: 12px;
+    position: absolute;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(216, 215, 215);
+    border: 1px solid rgb(133, 133, 133);
+    border-radius: 5px;
+    
+}
+
+
+.tema {
+    border-top: 1px solid rgba(134, 134, 134, 0.342);
+    border-bottom: 1px solid rgba(134, 134, 134, 0.342);
+}

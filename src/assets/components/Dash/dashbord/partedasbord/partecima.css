@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+.partegrafico {
+    width: 700px;
+    height: 509px;
+
+    background-color: #1818186b;
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    background-image: radial-gradient(rgba(128, 128, 128, 0.781) 1px, transparent 1px);
+    background-size: 20px 20px;
+    border: 1px solid rgba(128, 128, 128, 0.445);
+    border-radius: 10px;
+}
+
+.bemvindo {
+    position: absolute;
+    left: 240px;
+    top: 30%;
+    z-index: 9089;
+    color: rgb(15, 15, 15);
+}
+
+.bemvindo p{
+    color: rgb(150, 230, 190);
+    margin-top: 10px;
+    margin-left: 3px;
+    font-size: 16pt;
+    font-family: 'Poppins', sans-serif;
+}
+.bemvindo h5 {
+    font-size: 12pt;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: -20px;
+    color: rgba(0, 0, 0, 0.493);
+    font-family: 'Poppins', sans-serif;
+}
+.primeiras-caixas {
+    display: flex;
+    border: 1px solid rgb(228, 228, 228);
+    height: 60px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: rgb(238, 238, 238);
+}
+.primeiras-caixas:hover {
+    border: 1px solid rgb(150, 230, 190);
+    background-color: rgb(54, 54, 54);
+}
+.alinhar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+
+}
+.organizar {
+    display: flex;
+    border-bottom: 1px solid rgb(19, 19, 19);
+}
+.alinhando-caixas-dentro {
+    display: flex;
+    flex-direction: column;
+}
+.alinhando-caixas-dentro p {
+    font-size: 13pt;
+    color: rgb(150, 230, 190);
+    margin: 0px;
+}
